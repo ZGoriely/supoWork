@@ -1,4 +1,4 @@
-package supo2;
+package supoWork.supo2;
 
 public class Heapsort {
 
@@ -44,6 +44,12 @@ public class Heapsort {
 		int temp = A[i];
 		A[i] = A[j];
 		A[j] = temp;
+	}
+	
+	public static void main (String[] args) {
+		int[] test = new int[]{1,1,2,1,4};
+		Heapsort.heapSort(test);
+		for (int i : test) System.out.print(i);
 	}
 
 }
