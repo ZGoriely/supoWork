@@ -1,4 +1,4 @@
-package supo1;
+package supoWork.supo1;
 
 import java.util.Arrays;
 
